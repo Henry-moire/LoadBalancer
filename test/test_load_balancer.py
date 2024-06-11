@@ -1,7 +1,5 @@
 import requests
-import threading
 import time
-import json
 
 # Constants
 LOAD_BALANCER_URL = "http://localhost:5000"

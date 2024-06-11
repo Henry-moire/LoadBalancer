@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import os
+import os # ?
 import random
 from consistent_hash import map_request
 from consistent_hash import consistent_hash_map, num_slots, K, hash_virtual_server

@@ -19,7 +19,7 @@ As the number of servers increases, the load per server decreases proportionally
 ## A-3: Server Failure Recovery
 
 ### Observation
-Testing the load balancer's ability to recover from server failures showed that new instances were spawned quickly to handle the load. The '/rep' endpoint was used to verify the status of replicas.
+Testing the load balancers ability to recover from server failures showed that new instances were spawned quickly to handle the load. The '/rep' endpoint was used to verify the status of replicas.
 
 ### Analysis
 The load balancer effectively maintains the specified number of replicas, ensuring high availability and fault tolerance.
